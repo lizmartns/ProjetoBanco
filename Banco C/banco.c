@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <unistd.h> // Se tiver no Linux/Mac sleep(segundos)
-//#include <windows.h> //Se tiver no Windows Sleep(segundos)
 #include <time.h>
 
 typedef struct {
@@ -48,8 +46,7 @@ int main(){
 void menu(){
 	int opcao = 0;
 	printf("======================================\n");
-	printf("=============== ATM ==================\n");
-	printf("============= Geek Bank ==============\n");
+	printf("=============== BANCO ================\n");
 	printf("======================================\n");
 
 	printf("Selecione uma opção no menu:\n");
